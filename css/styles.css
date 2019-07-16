@@ -558,6 +558,37 @@ body {
   .timeline.animated .timeline-row.active:nth-child(odd) .timeline-content {
     left: 0; }
 
+/*----------------------------------------------------------------------------------- */
+/*  Individual background images */
+/*----------------------------------------------------------------------------------- */
+
+#sect1 {
+  background-image: url(../images/A2017_47_1_1_4_001.png);
+}
+#sect2 {
+  background-image: url(../images/james-baldwinINHARLEM2.jpg);
+}
+#sect3 {
+  background-image: url(../images/bw_A2017_47_6_1_1_3_001.jpg);
+}
+#sect4 {
+  background-image: url(../images/bw_galatabridge.jpg);
+}
+#sect5 {
+  background-image: url(../images/nf-obits-baldwin-jumbo.jpg);
+}
+
+#sect6 {
+  background-image: url(../images/bw_archdigest7-CN00182204.jpg);
+  }
+.Accordion-panel {  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  top: 0;
+}
+
 @media (max-width: 640px) {
   .timeline {
     padding: 15px 10px; }
