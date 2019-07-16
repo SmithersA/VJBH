@@ -638,4 +638,8 @@ body {
     top: -24px;
     left: -26px;
     }
+  .Accordion-panel 
+  {
+    background-size: cover;
+  }
   }
