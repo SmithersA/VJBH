@@ -48,13 +48,13 @@
 .Accordion-icon--timeline {
     border: solid hsl(23, 70%, 46%);
     border-width: 0 2px 2px 0;
-    height: 2.5rem;
+    height: 1.5rem;
     pointer-events: none;
     position: absolute;
     right: 1.5em;
     top: 50%;
     transform: translateY(-60%) rotate(45deg);
-    width: 2.5rem;
+    width: 1.5rem;
 }
 
 .Accordion-trigger:focus .Accordion-icon,
