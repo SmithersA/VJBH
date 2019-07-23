@@ -31,16 +31,16 @@
     background: hsl(35, 84%, 62%);
 }
 
-.Accordion-title {
+.Accordion-title--timeline {
   display: block; /* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/8295099/ */
   pointer-events: none;
 }
 
-.Accordion-title img {
+.Accordion-title--timeline img {
     max-width: 100%;
 }
 
-.Accordion-icon {
+.Accordion-icon--timeline {
     border: solid hsl(23, 70%, 46%);
     border-width: 0 2px 2px 0;
     height: 2.5rem;
