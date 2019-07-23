@@ -357,10 +357,10 @@ blockquote {
 /*  Individual background images */
 /*----------------------------------------------------------------------------------- */
 
-#sect1 {
+#sect-x {
   background-image: url(https://smithersa.github.io/VJBH-timeline/images/A2017_47_1_1_4_001.png);
 }
-#sect2 {
+#sect1 {
   background-image: url(https://smithersa.github.io/VJBH-timeline/images/james-baldwinINHARLEM2.jpg);
 }
 #sect3 {
