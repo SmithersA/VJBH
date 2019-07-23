@@ -4,7 +4,7 @@
 * {
   outline: none !important; }
 
-.timeline body {
+.vjbh body {
   font-family: "Freight Serif Pro", Garamond, serif;
   color: black;
   background-color: rgba(3, 3, 3, 0);
@@ -37,7 +37,7 @@ h6, .h6 {
   font-size: 13px;
   font-weight: 600; }
 
-.timeline p {
+.vjbh p {
   margin-bottom: 15px; }
 
 .lead {
@@ -60,7 +60,7 @@ strong {
 blockquote {
   border-color: #dddddd; }
 
-.timeline hr {
+.vjbh hr {
   border-color: #d0d0d0; }
 
 
@@ -145,7 +145,7 @@ blockquote {
     color: #32b9b1;
     background-color: white; }
 
-a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+.vjbh a.list-group-item.active, .vjbh a.list-group-item.active:hover, .vjbh a.list-group-item.active:focus {
   background-color: #32b9b1;
   border-color: #32b9b1; }
 
@@ -172,7 +172,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 /*----------------------------------------------------------------------------------- */
 .panel--timeline {
   border: 0; }
-  .panel .panel-body {
+  .panel .panel-body--timeline {
     padding: 20px; }
 
 .panel-heading .panel-toggle {
@@ -244,7 +244,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0.05); }
 
-body {
+.vjbh body {
   background-color: rgba(3, 3, 3, 0.85);
   padding: 5em 0; }
 
@@ -320,7 +320,7 @@ body {
         width: 40px;
         background-color: rgba(255, 255, 255, 1);
         z-index: -1; }
-      .timeline .timeline-row .timeline-content .panel-body {
+      .timeline .timeline-row .timeline-content .panel-body--timeline {
         padding: 15px 15px 2px;
         position: relative;
         z-index: 10; }
