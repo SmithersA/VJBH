@@ -31,25 +31,30 @@
     background: hsl(35, 84%, 62%);
 }
 
-.Accordion-title {
+.Accordion-title--timeline {
   display: block; /* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/8295099/ */
   pointer-events: none;
+    font-size: 3em;
+    font-weight: 700;
+    min-height: 150px;
+    color: #612a60;
+    margin: 2em 0 -2em 1.5em;
 }
 
-.Accordion-title img {
+.Accordion-title--timeline img {
     max-width: 100%;
 }
 
-.Accordion-icon {
+.Accordion-icon--timeline {
     border: solid hsl(23, 70%, 46%);
     border-width: 0 2px 2px 0;
-    height: 2.5rem;
+    height: 1.5rem;
     pointer-events: none;
     position: absolute;
     right: 1.5em;
     top: 50%;
     transform: translateY(-60%) rotate(45deg);
-    width: 2.5rem;
+    width: 1.5rem;
 }
 
 .Accordion-trigger:focus .Accordion-icon,
@@ -70,6 +75,10 @@
 .Accordion-panel[hidden] {
   display: none;
 }
+.Accordion-panel 
+  {
+    background-size: cover;
+  }
 
 fieldset {
     border: 0;
